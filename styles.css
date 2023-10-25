@@ -1,0 +1,53 @@
+body{
+    border-style: dotted;
+    background-color: lightgray;
+  }
+  
+  #fortune, #compliment{
+    border-style: dotted;
+    padding:15px
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  .aff-container {
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px; 
+    padding: 5px;
+  }
+  
+  .aff-text {
+    margin-right: 10px;
+    color : blue;
+  }
+  
+  .aff-actions, #getAcompliment, #getFortune{
+    display: flex;
+    justify-content:center;
+  }
+  
+  button{
+    color :rgb(167, 52, 52);
+    background-color: rgb(112, 112, 123);
+    margin-right: 5px;
+    border-radius: 20%;
+    border: none;
+  }
+  
+  
+  button:hover{
+    color:rgb(11, 1, 1);
+    background-color: rgb(47, 47, 134);
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  input:hover{
+    color :blue;
+    margin: 10px;
+    cursor: pointer;
+    transform: scale(1.1);
+  
+  }
